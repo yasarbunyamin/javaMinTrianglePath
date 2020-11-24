@@ -50,7 +50,7 @@ class Main {
 
         int[] lastArray = new int[triangle.size()+1];
 
-        // inital the dp[] array
+        // inital the lastArray[] array
         for(int i=0; i<triangle.size(); i++) {
             lastArray[i] += triangle.get(triangle.size()-1).get(i);
         }
