@@ -67,12 +67,8 @@ class Main {
                 dp[j] =location  + min;
 
 
-                //dm[i] = dp[j]-min ;
-                //System.out.println(min);
-
             }
 
-            //System.out.println(dm[i]) ;
 
         }
         System.out.println("Minimum Triangle Path: " + dp[0]);
